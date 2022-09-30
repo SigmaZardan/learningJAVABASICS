@@ -10,5 +10,25 @@ public class Main {
             System.out.println(i);
             System.out.println("Hello World!");
         }
+
+        // learning about functions
+
+        //invoking functions
+
+      int result1 =   sum(23,234);
+        System.out.println(result1);
+        int result2 = sum(23,34,235);
+        System.out.println(result2);
+
+
+    }
+
+    static int sum(int a, int b){
+        return a + b;
+
+    }
+    // let's override this function
+    static int sum(int a , int b, int c){
+        return a + b + c;
     }
 }
